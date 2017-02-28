@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'amitaregular';
+    src: url('polices/amitaregular-webfont.eot');
+    src: url('polices/amitaregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/amitaregular-webfont.woff2') format('woff2'),
+         url('polices/amitaregular-webfont.woff') format('woff'),
+         url('polices/amitaregular-webfont.ttf') format('truetype'),
+         url('polices/amitaregular-webfont.svg#amitaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('polices/montserrat-regular-webfont.eot');
+    src: url('polices/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/montserrat-regular-webfont.woff2') format('woff2'),
+         url('polices/montserrat-regular-webfont.woff') format('woff'),
+         url('polices/montserrat-regular-webfont.ttf') format('truetype'),
+         url('polices/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+h1,h2
+{
+	color:#22780F;
+	text-decoration:underline;
+	font-weight: bold;
+	text-align: center;
+}
+
+h1
+{
+	font-family: "montserratregular";
+}
+
+h2
+{
+	font-family: "amitaregular";
+}
+
+h3
+{
+	color:#00561B;
+	text-decoration: underline;
+	font-family: "amitaregular";
+}
+
+.photo
+{
+	float:right;
+	box-shadow: 4px 4px 2px rgba(34,120,15,0.6);
+}
+
+
+.bg
+{
+	background: url("images/frame.jpg");
+	background-size: cover;
+}
+
+ul
+{
+	color:black;
+	font-family: "montserratregular";
+}
+
+.etudes
+{
+	color: black;
+	font-family: "montserratregular";
+}
+
+strong
+{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#main
+{
+	display:flex;
+	flex-direction: row-reverse;
+}
+
+.test
+{
+	display: inline-block;
+	position: fixed;
+	width: 10%;
+	max-width: 230px;
+	height: 100%;
+}
+#contenu
+{
+	width: 90%;
+	margin-left: 250px;
+}
+#corps
+{
+	clear: both;
+	display: flex;
+	flex direction: column;
+	margin-top: 8%;
+
+}
+
+.comp,.exp,.etudes
+{
+	margin-right: 5%;
+	padding-right: 5%;
+	padding-left: 3%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: justify;
+	border-radius: 10px;
+	border: 2px solid #22780F;
+}
+
+#head
+{
+	margin-top: 2%;
+	padding-top: 2%;
+	padding-bottom:2%;
+}
+
+@media screen and (max-width: 1024px)
+{
+	@font-face {
+    	font-family: 'amitaregular';
+    	src: url('polices/amitaregular-webfont.eot');
+    	src: url('polices/amitaregular-webfont.eot?#iefix') format('embedded-opentype'),
+        	 url('polices/amitaregular-webfont.woff2') format('woff2'),
+        	 url('polices/amitaregular-webfont.woff') format('woff'),
+        	 url('polices/amitaregular-webfont.ttf') format('truetype'),
+        	 url('polices/amitaregular-webfont.svg#amitaregular') format('svg');
+    	font-weight: normal;
+    	font-style: normal;
+	}
+
+
+	@font-face {
+    	font-family: 'montserratregular';
+    	src: url('polices/montserrat-regular-webfont.eot');
+    	src: url('polices/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        	 url('polices/montserrat-regular-webfont.woff2') format('woff2'),
+        	 url('polices/montserrat-regular-webfont.woff') format('woff'),
+        	 url('polices/montserrat-regular-webfont.ttf') format('truetype'),
+        	 url('polices/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    	font-weight: normal;
+    	font-style: normal;
+	}
+
+
+	h1,h2
+	{
+		color:#22780F;
+		text-decoration:underline;
+		font-weight: bold;
+		text-align: left;
+	}
+
+	h1
+	{
+		font-family: "montserratregular";
+	}
+
+	h2
+	{
+		font-family: "amitaregular";
+	}
+
+	h3
+	{
+		color:#00561B;
+		text-decoration: underline;
+		font-family: "amitaregular";
+	}
+
+	#contenu
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 5%;
+	}
+
+	#corps
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.comp,.exp,.etudes
+	{
+		margin-bottom: 5%;
+		margin-right: 20%;
+		padding-right: 5%;
+		padding-left: 3%;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		text-align: justify;
+		border-radius: 10px;
+		border: 2px solid #22780F;
+	}
+
+	.test
+	{
+		order:-1;
+		width: 0%;
+	}
+
+
+}
